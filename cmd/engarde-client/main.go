@@ -73,6 +73,7 @@ func stringInSlice(a string, list []string) bool {
 	return false
 }
 
+// if IncludedInterfaces is not empty all interfaces are considered excluded except the ones in IncludedInterfaces list
 func isExcluded(name string) bool {
 	if len(clConfig.IncludedInterfaces) > 0 {
 		if !stringInSlice(name, clConfig.IncludedInterfaces) {
