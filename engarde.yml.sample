@@ -10,6 +10,10 @@ client:
   # A timeout in milliseconds for socket writes. You can try to lower it if you're experiencing latency peaks, or raising it if the connection is unstable.
   # You can disable write timeout by setting a negative value (like -1), but it's easy to have issues if you need low latency.
   writeTimeout: 10
+  # if you want to exclude all interfaces except a certain list - uncomment the below
+  # includedInterfaces:
+  #   - "wlan0"
+  #   - "usb0"
   # By default, engarde sends packets through all the available network interfaces.
   # You will probably need to exclude some interfaces (Bluetooth or virtual ones, for example).
   # Lauch "engarde-client list-interfaces" to show all the detected interfaces, and form your own list based on that.
