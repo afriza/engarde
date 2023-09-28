@@ -71,6 +71,6 @@ client-arm64: client-linux-arm64
 server-i386: server-linux-i386 server-windows-i386 server-darwin-i386
 server-amd64: server-linux-amd64 server-windows-amd64 server-darwin-amd64
 server-arm: server-linux-arm
-server-arm64: server-linux-arm
+server-arm64: server-linux-arm64
 client: client-i386 client-amd64 client-arm client-arm64
 server: server-i386 server-amd64 server-arm server-arm64
